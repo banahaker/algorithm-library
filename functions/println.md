@@ -1,6 +1,7 @@
 # println()
 # Purpose 目的
-**show a line text in command line(auto add '\n')**
+**show a line text in command line(auto add '\n')**  
+**顯示出一行字在文字介面上(terminal or cmd or powershell etc.)
 # HOW TO 
 **code**
 ```c

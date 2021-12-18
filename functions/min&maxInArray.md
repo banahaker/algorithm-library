@@ -1,6 +1,6 @@
 # minInArray() & maxInArray
 # purpose 目的
-**Find the largest(MAX) and smallest(MIN) in the array**
+**Find the largest(MAX) and smallest(MIN) in the array**  
 **尋找陣列中的最大(MAX)或最小值(MIN)**
 # HOW TO
 **Code**
@@ -16,7 +16,7 @@ printf("min: %d\n", min);
 max: 288
 min: 1
 ```
-**Parameters**
+**Parameters**  
 (arr, length)
 | parameter | type | usage |
 | :--:      | :--: | :--   |

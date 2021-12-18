@@ -1,6 +1,6 @@
 # MAX() & MIN()
 # Purpose 目的
-**get larger(MAX) or smaller(MIN) number in two value**
+**get larger(MAX) or smaller(MIN) number in two value**  
 **從兩數中取得最大值(MAX)或最小值(MIN)**
 # HOW TO
 **Code**
@@ -16,7 +16,7 @@ printf("min: %d\n", min);
 max: 10
 min: 8
 ```
-**Parameters**
+**Parameters**  
 (a, b)
 | parameter | type | usage |
 | :--:      | :--: | :--   |

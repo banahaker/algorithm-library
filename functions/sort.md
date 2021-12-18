@@ -6,7 +6,7 @@ include two sort function:
  - bubbleSort()
  - insertSort()
 # Purpose 目的
-**sort the array value from small to large**
+**sort the array value from small to large**  
 **由小到大排序陣列值**
 # HOW TO
 **Code**
@@ -25,7 +25,7 @@ arrayDisplay(arr, 10, 0);
 ```powershell
 [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 288 ]
 ```
-**Parameters**
+**Parameters**  
 (arr, length)
 | parameter | type | usage |
 | :--:      | :--: | :--   |

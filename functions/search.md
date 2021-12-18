@@ -6,32 +6,32 @@ include two search function:
  - binarySearch()
  - linearSearch()
 # Purpose 目的
-**Search a target in a array and return that's index**
+**Search a target in a array and return that's index**  
 **在陣列中搜尋一目標並回傳(return)其所引值(index)**
 # HOW TO
-**Code**
+**Code**  
 ```c
 int arr[10] = {5, 4, 3, 8, 7, 6, 1, 9, 288, 2};
 int result = linearSearch(arr, 10, 9);
 printf("%d\n", result);
 ```
-**Output**
+**Output**  
 ```powershell
 7
 ```  
 or   
-**Code** 
+**Code**   
 ```c
 int arr[10] = {5, 4, 3, 8, 7, 6, 1, 9, 288, 2};
 insertSort(arr, 10);
 int result = binarySearch(arr, 10, 9);
 printf("%d", result);
 ```
-**Output**
+**Output**  
 ```powershell
 8
 ```
-**Parameters**
+**Parameters**  
 (arr, length, target)
 | parameter | type | usage |
 | :--:      | :--: | :--   |
