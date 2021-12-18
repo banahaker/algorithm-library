@@ -1,7 +1,7 @@
 # Sort
 include two sort function:  
  - bubbleSort()
- - insertSort()
+ - insertSort()  
 包括兩種排序法:
  - bubbleSort()
  - insertSort()

@@ -2,7 +2,7 @@
 include two search function:
  - binarySearch()
  - linearSearch()
-包括以下兩種函式:
+包括以下兩種函式:  
  - binarySearch()
  - linearSearch()
 # Purpose 目的
