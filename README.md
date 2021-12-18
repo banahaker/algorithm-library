@@ -12,17 +12,52 @@ Put al.h file in your project folder, then `#include` this header file
 #include "al.h"
 ```
 # All algorithm function 所有函數
- - println()
- - arrayDisplay()
- - MAX()
- - MIN()
- - maxInArray()
- - minInArray()
- - bubbleSort()
- - insertSort()
- - binarySearch()
- - linearSearch()
+ [instructions for use](https://github.com/banahaker/algorithm-library/tree/main/functions)
+ [使用說明](https://github.com/banahaker/algorithm-library/tree/main/functions)
+ - [println()](https://github.com/banahaker/algorithm-library/blob/main/functions/println.md)
+ - [arrayDisplay()](https://github.com/banahaker/algorithm-library/blob/main/functions/arrayDisplay.md)
+ - [MAX()](https://github.com/banahaker/algorithm-library/blob/main/functions/MAX()%26MIN().md)
+ - [MIN()](https://github.com/banahaker/algorithm-library/blob/main/functions/MAX()%26MIN().md)
+ - [maxInArray()](https://github.com/banahaker/algorithm-library/blob/main/functions/min%26maxInArray.md)
+ - [minInArray()](https://github.com/banahaker/algorithm-library/blob/main/functions/min%26maxInArray.md)
+ - [bubbleSort()](https://github.com/banahaker/algorithm-library/blob/main/functions/sort.md)
+ - [insertSort()](https://github.com/banahaker/algorithm-library/blob/main/functions/sort.md)
+ - [binarySearch()](https://github.com/banahaker/algorithm-library/blob/main/functions/search.md)
+ - [linearSearch()](https://github.com/banahaker/algorithm-library/blob/main/functions/search.md)
 # TODO
 using those algorithm function you can programming faster  
  - [x] auto include <stdio.h> and <stdlib.h>(in C)  
  - [ ] not include C++ basic library   
+# Example 範例
+**Code**
+```c
+#include "al.h" // 引入函式庫 import library
+
+int main() {
+	println("algorithm library test"); // 全行顯示 (自動加入'\n')
+	int arr[10] = {5, 4, 3, 8, 7, 6, 1, 9, 288, 2};
+	arrayDisplay(arr, 10, 0); // 顯示陣列 display array
+	insertSort(arr, 10); // 陣列排序 array sort
+	arrayDisplay(arr, 10, 0); // 顯示陣列 display array
+	int searchResult = binarySearch(arr, 10, 4); // 陣列搜尋 array search
+	printf("searchResult: %d\n", searchResult);
+	int maxValueInArray = maxInArray(arr, 10); // 陣列最大值 largest value in array
+	int minValueInArray = minInArray(arr, 10); // 陣列最小值 smallest value in array
+	printf("maxValueInArray: %d\n", maxValueInArray);
+	printf("minValueInArray: %d\n", minValueInArray);
+	double a = 10.6, b = 8.5;
+	double max = MAX(a, b), min = MIN(a, b); // 取大值與小值
+	printf("max: %f, min: %f", max, min);
+	return 0;
+}
+```
+**Output**
+```powershell
+algorithm library test
+[ 5, 4, 3, 8, 7, 6, 1, 9, 288, 2 ]
+[ 1, 2, 3, 4, 5, 6, 7, 8, 9, 288 ]
+searchResult: 3
+maxValueInArray: 288
+minValueInArray: 1
+max: 10.600000, min: 8.500000
+```
