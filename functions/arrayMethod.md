@@ -13,7 +13,7 @@ include two function now:
 **Code**
 ```c
 int arr[10] = {5, 4, 3, 8, 7, 6, 1, 9, 288, 2};
-insertElement(2, arr, 10, 13); // 在 arr 中的索引三插入13 insert 13 to index_2 in arr
+insertElement(2, arr, 10, 13); // 在 arr 中的索引2插入13 insert 13 to index_2 in arr
 arrayDisplay(arr, 10, 0);
 deleteElment(3, arr, 10); // 刪除 arr 中的索引 3 delete index_3 in arr
 arrayDisplay(arr, 10, 0);
