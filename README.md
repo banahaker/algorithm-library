@@ -27,8 +27,8 @@ Put al.h file in your project folder, then `#include` this header file
  - [insertSort()](https://github.com/banahaker/algorithm-library/blob/main/functions/sort.md)
  - [binarySearch()](https://github.com/banahaker/algorithm-library/blob/main/functions/search.md)
  - [linearSearch()](https://github.com/banahaker/algorithm-library/blob/main/functions/search.md)
- - [insertElement()]()
- - [deleteElement()]()
+ - [insertElement()](https://github.com/banahaker/algorithm-library/blob/main/functions/arrayMethod.md)
+ - [deleteElement()](https://github.com/banahaker/algorithm-library/blob/main/functions/arrayMethod.md)
 # TODO
 using those algorithm function you can programming faster  
  - [x] auto include <stdio.h> and <stdlib.h>(in C)  
