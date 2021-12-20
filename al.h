@@ -153,3 +153,27 @@ int linearSearch(int* arr, int length, int target) {
 	}
 	return -1;
 }
+
+// int array method
+/* 	insert element
+	input(location: int, arr: array, length: int, value: int)
+	output: none(inserted array)
+*/
+int insertElement(int location, int arr[], int length, int value){
+    if (location >= length ) return 0;
+    for(int i=length-2; i>=location; i--)
+        arr[i + 1] = arr[i];
+    arr[location] = value;
+}
+
+/*	delete element
+	input(location: int, arr: array, length: int)
+	output: none(deleted array)
+*/
+int deleteElment(int location, int arr[], int length) {
+    if(location >= length) return 0;
+    for(int i=location; i<length; i++){
+        arr[i] = arr[i+1];
+    }
+    arr[length-1] = 0;
+}

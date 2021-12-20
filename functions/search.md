@@ -1,7 +1,8 @@
 # Search
 include two search function:
  - binarySearch()
- - linearSearch()
+ - linearSearch()  
+
 包括以下兩種函式:  
  - binarySearch()
  - linearSearch()

@@ -1,10 +1,13 @@
 # algorithm library from LAZP
 **A algorithm library for C/C++ programmer**
 # version information 版本資訊
- - v1.0.0
+ - v1.0.1
  - developer 開發者: LAZPbanahaker
- - latest update 最近更新日期: 2021/12/18
- - support function 支援函式數量: 10
+ - latest update 最近更新日期: 2021/12/20
+ - support function 支援函式數量: 12
+ ### new function in latest version 最新版本新增功能
+ - insertElement()
+ - deleteElement() 
 # HOW TO
 Put al.h file in your project folder, then `#include` this header file  
 將 al.h 放在專案資料夾下然後用 `#include` 方式引入如下  
@@ -24,6 +27,8 @@ Put al.h file in your project folder, then `#include` this header file
  - [insertSort()](https://github.com/banahaker/algorithm-library/blob/main/functions/sort.md)
  - [binarySearch()](https://github.com/banahaker/algorithm-library/blob/main/functions/search.md)
  - [linearSearch()](https://github.com/banahaker/algorithm-library/blob/main/functions/search.md)
+ - [insertElement()]()
+ - [deleteElement()]()
 # TODO
 using those algorithm function you can programming faster  
  - [x] auto include <stdio.h> and <stdlib.h>(in C)  
@@ -47,7 +52,11 @@ int main() {
 	printf("minValueInArray: %d\n", minValueInArray);
 	double a = 10.6, b = 8.5;
 	double max = MAX(a, b), min = MIN(a, b); // 取大值與小值
-	printf("max: %f, min: %f", max, min);
+	printf("max: %f, min: %f\n", max, min);
+	insertElement(2, arr, 10, 13); // 在 arr 中的索引三插入13 insert 13 to index_2 in arr
+	arrayDisplay(arr, 10, 0);
+	deleteElment(3, arr, 10); // 刪除 arr 中的索引 3 delete index_3 in arr
+	arrayDisplay(arr, 10, 0);
 	return 0;
 }
 ```
@@ -60,4 +69,6 @@ searchResult: 3
 maxValueInArray: 288
 minValueInArray: 1
 max: 10.600000, min: 8.500000
+[ 1, 2, 13, 3, 4, 5, 6, 7, 8, 9 ]
+[ 1, 2, 13, 4, 5, 6, 7, 8, 9, 0 ]
 ```

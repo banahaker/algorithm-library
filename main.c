@@ -14,6 +14,10 @@ int main() {
 	printf("minValueInArray: %d\n", minValueInArray);
 	double a = 10.6, b = 8.5;
 	double max = MAX(a, b), min = MIN(a, b); // 取大值與小值
-	printf("max: %f, min: %f", max, min);
+	printf("max: %f, min: %f\n", max, min);
+	insertElement(2, arr, 10, 13); // 在 arr 中的索引三插入13 insert 13 to index_2 in arr
+	arrayDisplay(arr, 10, 0);
+	deleteElment(3, arr, 10); // 刪除 arr 中的索引 3 delete index_3 in arr
+	arrayDisplay(arr, 10, 0);
 	return 0;
 }
