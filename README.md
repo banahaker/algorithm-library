@@ -1,13 +1,17 @@
 # algorithm library from LAZP
 **A algorithm library for C/C++ programmer**
 # version information 版本資訊
- - v1.0.1
- - developer 開發者: LAZPbanahaker
- - latest update 最近更新日期: 2021/12/20
- - support function 支援函式數量: 12
+- v2.0.1
+	 - developer 開發者: LAZPbanahaker
+	 - latest update 最近更新日期: 2022/07/14   
+	 - support function 支援函式數量: 14
+	 - 更新內容: Linked list support  
+- v1.0.1
+	 - developer 開發者: LAZPbanahaker
+	 - latest update 最近更新日期: 2021/12/20
+	 - support function 支援函式數量: 12
  ### new function in latest version 最新版本新增功能
- - insertElement()
- - deleteElement() 
+ - Linked list Support
 # HOW TO
 Put al.h file in your project folder, then `#include` this header file  
 將 al.h 放在專案資料夾下然後用 `#include` 方式引入如下  
