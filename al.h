@@ -226,3 +226,27 @@ Node *new_node(Node *previous, int data)
 	previous->next = new_node;
 	return new_node;
 }
+
+void printList(Node *n)
+{
+	while (n != NULL)
+	{
+		printf(" %d", n->data);
+		n = n->next;
+	}
+}
+
+Node *target_node(int index, Node *head)
+{
+	int n = 0;
+	Node *target = head;
+	while (n <= index)
+	{
+		target = target->next;
+		if (target == NULL)
+		{
+			return;
+		}
+	}
+	return target;
+}
