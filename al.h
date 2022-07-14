@@ -234,6 +234,7 @@ void printList(Node *n)
 		printf(" %d", n->data);
 		n = n->next;
 	}
+	printf("/n");
 }
 
 Node *target_node(int index, Node *head)
